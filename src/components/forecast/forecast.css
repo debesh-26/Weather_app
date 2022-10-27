@@ -1,0 +1,52 @@
+.titel {
+  font-weight: 700;
+  font-size: 23px;
+}
+.daily-forecast {
+  background-color: rgba(255, 255, 225, 0.411);
+  border-radius: 15px;
+  height: 40px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  padding: 5px 20px;
+  cursor: pointer;
+  font-size: 13px;
+  box-shadow: 1px 2px 6px;
+}
+.icon {
+  width: 45px;
+}
+.day {
+  flex: 1 1;
+  font-weight: bold;
+  margin-left: 21px;
+}
+.description {
+  flex: 1 1;
+  font-weight: 500;
+  margin-right: 51px;
+  text-align: right;
+}
+.min-max {
+  color: rgb(93, 86, 78);
+}
+.daily-details {
+  grid-row-gap: 0px;
+  grid-column-gap: 12px;
+  column-gap: 10px;
+  row-gap: 0px;
+  display: grid;
+  flex: 1 1;
+  grid-template-columns: auto auto;
+  padding: 5px 15px;
+}
+.daily-details-item {
+  display: flex;
+  justify-content: space-between;
+  height: 24px;
+  align-items: center;
+}
+.daily-details-item label:first-child {
+  color: rgba(0, 0, 0, 0.415);
+}
